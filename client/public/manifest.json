@@ -1,0 +1,25 @@
+{
+    "manifest_version": 3,
+    "name": "Simple MDNotes",
+    "version": "1.0.1",
+    "description": "A simple extension for taking notes with an inbuilt markdown editor",
+    "permissions": ["scripting", "storage"],
+    "action": {
+      "default_popup": "index.html",
+      "default_icon": {
+        "16": "icon16.png",
+        "32": "icon32.png",
+        "64": "icon64.png"
+      }
+    },
+    "host_permissions": [
+      "http://*/*",
+      "https://*/*"
+    ],
+    "icons": {
+      "16": "icon16.png",
+      "32": "icon32.png",
+      "64": "icon64.png"
+    }
+  }
+  

@@ -1,0 +1,30 @@
+#root {
+  overflow: hidden;
+  text-align: center;
+}
+
+body {
+  overflow: hidden;
+  position: relative;
+  color: white;
+  height: 100vh;
+  background: #242424;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+}
+
+/* Chrome and Safari */
+::-webkit-scrollbar {
+  width: 8px;
+  background-color: #242424;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: 2px transparent;
+  background-clip: content-box;
+}
